@@ -68,12 +68,6 @@ STLs are grouped by category. Each includes print notes in the filename or accom
 | Arduino Box-body| `models/syringe-pump/syringe_pump_arduino_box_body.stl`      | Remove the plastic holder on the bottom of the Arduino (Uno3) and screw in the box using M3 screws (photo). |
 | Arduino Box-lid | `models/syringe-pump/syringe_pump_arduino_box_lid.stl`       | Snap-fit or screw-on cover for electronics protection. |
 
-## Citation
-
-Doncheck, E.M. et al. Drug self-administration in head-fixed mice. *Nat. Protoc.* (2025). https://doi.org/10.1038/s41596-025-XXXXX
-
-For this repo: [Zenodo record](https://doi.org/10.5281/zenodo.17903383).
-
 ---
 
 *Last updated: December 2025.*
