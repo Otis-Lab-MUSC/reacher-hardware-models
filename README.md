@@ -77,4 +77,4 @@ For this repo: [Zenodo record](https://doi.org/10.5281/zenodo.9876543).
 
 ---
 
-*Last updated: December 2025. For questions, contact otis@musc.edu or gstuber@uw.edu.*
+*Last updated: December 2025.*
