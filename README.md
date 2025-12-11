@@ -1,6 +1,6 @@
 # Head-Fixed Mice Hardware Designs
 
-[![DOI](https://zenodo.org/badge/latestdoi/9876543.svg)](https://doi.org/10.5281/zenodo.9876543)  
+[![DOI](https://zenodo.org/badge/1114704891.svg)](https://doi.org/10.5281/zenodo.17903383)
 *This repository hosts downloadable STL files for 3D-printable hardware components supporting the head-restrained drug self-administration protocol in mice, as described in Doncheck et al. (Nature Protocols, 2025). For the full protocol and software resources, visit the [main aggregation repo](https://github.com/otis-lab-musc/doncheck-et-al-nature-protocols-2025). Original designs editable in [Tinkercad](https://www.tinkercad.com/).*
 
 ## Overview
@@ -73,7 +73,7 @@ STLs are grouped by category. Each includes print notes in the filename or accom
 
 Doncheck, E.M. et al. Drug self-administration in head-fixed mice. *Nat. Protoc.* (2025). https://doi.org/10.1038/s41596-025-XXXXX
 
-For this repo: [Zenodo record](https://doi.org/10.5281/zenodo.9876543).
+For this repo: [Zenodo record](https://doi.org/10.5281/zenodo.17903383).
 
 ---
 
