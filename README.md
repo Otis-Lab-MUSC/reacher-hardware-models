@@ -14,7 +14,7 @@ For assembly instructions, wiring, and integration with the REACHER software sta
 
 ## Downloading Files
 
-- **Latest Release (v1.0.0)**: [Download all STLs as ZIP](https://github.com/otis-lab-musc/reacher-hardware-models/releases/download/v0.0.0/models.zip) – Includes all files.
+- **Latest Release (v1.0.0)**: [Download all STLs as ZIP](https://github.com/otis-lab-musc/reacher-hardware-models/releases/download/v1.0.0/models.zip) – Includes all files.
 - **Individual Files**: Browse the Releases assets or clone the repo and access `/models/` folder (e.g., `models/lever/head.stl`).
 
 After downloading, import STLs into slicer software (e.g., Cura, PrusaSlicer) for printing.
