@@ -37,8 +37,8 @@ STLs are grouped by category. Each includes print notes in the filename or accom
 | Item         | File Path | Description |
 |--------------|--------------------------------------------|-------------|
 | Assembled   | `models/vein-elevator/vein_elevator_assembled.stl`      | Full assembly model for reference (print sub-components). |
-| Needle Ball | `models/vein-elevator/vein_elevator_needle_ball.stl`    | We cut out the needle screw part of a 3 mL syringe and placed it in the hole of the ball using super glue (photo). Use a higher infill setting to make a weighted ball for a stabler support. |
-| Needle Base | `models/vein-elevator/vein_elevator_needle_base.stl`    | Fill the inner space of the base with play-doh to hold the needle ball in the desired direction (photo). |
+| Needle Ball | `models/vein-elevator/vein_elevator_needle_ball.stl`    | We cut out the needle screw part of a 3 mL syringe and placed it in the hole of the ball using super glue. Use a higher infill setting to make a weighted ball for a stabler support. |
+| Needle Base | `models/vein-elevator/vein_elevator_needle_base.stl`    | Fill the inner space of the base with play-doh to hold the needle ball in the desired direction. |
 | Spatula Base| `models/vein-elevator/vein_elevator_spatula_base.stl`   | Adjust the negative space in the design to accommodate the spatula width, if needed. Fill the inner space of the base with play-doh to hold the spatula in the desired direction (photo). |
 
 ### Neck Brace
