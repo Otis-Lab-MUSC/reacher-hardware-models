@@ -1,8 +1,21 @@
-# Head-Fixed Mice Hardware Designs
+# REACHER Hardware Models — 3D-Printable Rig Components
 
-*This repository hosts downloadable STL files for 3D-printable hardware components supporting the head-restrained drug self-administration protocol in mice, as described in Doncheck et al. (Nature Protocols, 2025). For the full protocol and software resources, visit the [main aggregation repo](https://github.com/otis-lab-musc/doncheck-et-al-nature-protocols-2025). Original designs editable in [Tinkercad](https://www.tinkercad.com/).*
+**Downloadable STL files and Arduino sketches for building a complete head-fixed behavioral rig**
+
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/Otis-Lab-MUSC/reacher-hardware-models)
+[![Platform](https://img.shields.io/badge/platform-STL%20%2F%20Arduino-blue)]()
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![REACHER Suite](https://img.shields.io/badge/REACHER_Suite-member-orange)](https://github.com/Otis-Lab-MUSC)
+
+*Written by*: Joshua Boquiren
+
+[![](https://img.shields.io/badge/@thejoshbq-grey?style=flat&logo=github)](https://github.com/thejoshbq)
+
+---
 
 ## Overview
+
+This repository hosts downloadable STL files for 3D-printable hardware components supporting the head-restrained drug self-administration protocol in mice, as described in Doncheck et al. (Nature Protocols, 2025). For the full protocol and software resources, visit the [main aggregation repo](https://github.com/otis-lab-musc/doncheck-et-al-nature-protocols-2025). Original designs editable in [Tinkercad](https://www.tinkercad.com/).
 
 These STL files enable construction of custom equipment using affordable 3D printing, including levers for self-administration, surgical tools for vein elevation and neck restraint, syringe pumps for infusions, Arduino enclosures, Ethernet circuit and jack plug housings, and head fixation station specs. Components are modular, built from common lab materials (e.g., M3/M6 screws, PLA filament), and optimized for head-fixed mouse setups.
 
@@ -81,3 +94,15 @@ STLs are grouped by category. Each includes print notes in the filename or accom
 ---
 
 *Last updated: March 2026.*
+
+---
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Contact
+
+Joshua Boquiren — [thejoshbq@proton.me](mailto:thejoshbq@proton.me)
+
+[GitHub: Otis-Lab-MUSC/reacher-hardware-models](https://github.com/Otis-Lab-MUSC/reacher-hardware-models)
