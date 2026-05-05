@@ -13,6 +13,20 @@
 
 ---
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Downloading Files](#downloading-files)
+- [Component List](#component-list)
+  - [Lever Components](#lever-components)
+  - [Surgery Tools](#surgery-tools)
+  - [Syringe Pump & Arduino](#syringe-pump--arduino)
+  - [Ethernet Circuit Box](#ethernet-circuit-box)
+  - [Ethernet Jack Plug Components](#ethernet-jack-plug-components)
+  - [Head Fixation Station](#head-fixation-station)
+- [License](#license)
+- [Contact](#contact)
+
 ## Overview
 
 This repository hosts downloadable STL files for 3D-printable hardware components supporting the head-restrained drug self-administration protocol in mice, as described in Doncheck et al. (Nature Protocols, 2025). For the full protocol and software resources, visit the [main aggregation repo](https://github.com/otis-lab-musc/doncheck-et-al-nature-protocols-2025). Original designs editable in [Tinkercad](https://www.tinkercad.com/).
@@ -40,48 +54,48 @@ STLs are grouped by category. Each includes print notes in the filename or accom
 
 | Item   | File Path | Description |
 |--------|-----------|-------------|
-| Bridge | `models/Lever Components/01_021226_Lever bridge.stl` | Height & length will accommodate wider range of lever positioning. |
-| Head   | `models/Lever Components/02_021226_Lever head.stl`   | The "C" and "NO" wires will come out through the holes on the bottom of the heads. The neck connector part of the design was also shortened. |
-| Lid    | `models/Lever Components/03_021226_Lever lid.stl`    | Lid part to fix down the switches in the lever head. Screw with a M3 nut and 16mm (or longer) screw. The design will print 4 lids at a time, break to use individual parts. |
-| Neck   | `models/Lever Components/04_021226_Lever neck.stl`   | Extended neck part to accommodate wider range for lever positioning. Screw to the lever head with a M6 screw and nuts. |
+| Bridge | [`models/Lever Components/01_021226_Lever bridge.stl`](models/Lever%20Components/01_021226_Lever%20bridge.stl) | Height & length will accommodate wider range of lever positioning. |
+| Head   | [`models/Lever Components/02_021226_Lever head.stl`](models/Lever%20Components/02_021226_Lever%20head.stl)   | The "C" and "NO" wires will come out through the holes on the bottom of the heads. The neck connector part of the design was also shortened. |
+| Lid    | [`models/Lever Components/03_021226_Lever lid.stl`](models/Lever%20Components/03_021226_Lever%20lid.stl)    | Lid part to fix down the switches in the lever head. Screw with a M3 nut and 16mm (or longer) screw. The design will print 4 lids at a time, break to use individual parts. |
+| Neck   | [`models/Lever Components/04_021226_Lever neck.stl`](models/Lever%20Components/04_021226_Lever%20neck.stl)   | Extended neck part to accommodate wider range for lever positioning. Screw to the lever head with a M6 screw and nuts. |
 
 ### Surgery Tools
 
 | Item            | File Path | Description |
 |-----------------|-----------|-------------|
-| Neck Brace      | `models/Surgery tools/01_030626_Neck Brace.stl`          | Single-size neck brace for mouse restraint during surgery. |
-| Vein Elevator Ball  | `models/Surgery tools/02_030626_Vein Elevator_Ball.stl`   | We cut out the needle screw part of a 3 mL syringe and placed it in the hole of the ball using super glue. Use a higher infill setting to make a weighted ball for a stabler support. |
-| Vein Elevator Mount | `models/Surgery tools/03_030626_Vein Elevator_Mount.stl`  | Fill the inner space of the mount with play-doh to hold the needle ball in the desired direction. |
+| Neck Brace      | [`models/Surgery tools/01_030626_Neck Brace.stl`](models/Surgery%20tools/01_030626_Neck%20Brace.stl)          | Single-size neck brace for mouse restraint during surgery. |
+| Vein Elevator Ball  | [`models/Surgery tools/02_030626_Vein Elevator_Ball.stl`](models/Surgery%20tools/02_030626_Vein%20Elevator_Ball.stl)   | We cut out the needle screw part of a 3 mL syringe and placed it in the hole of the ball using super glue. Use a higher infill setting to make a weighted ball for a stabler support. |
+| Vein Elevator Mount | [`models/Surgery tools/03_030626_Vein Elevator_Mount.stl`](models/Surgery%20tools/03_030626_Vein%20Elevator_Mount.stl)  | Fill the inner space of the mount with play-doh to hold the needle ball in the desired direction. |
 
 ### Syringe Pump & Arduino
 
 | Item                   | File Path | Description |
 |------------------------|-----------|-------------|
-| Arduino Box            | `models/Pump componenets and Arduino file/01_030626_Syringe PumpArduino_Box.stl`    | Remove the plastic holder on the bottom of the Arduino (Uno3) and screw in the box using M3 screws. |
-| Arduino Box Lid        | `models/Pump componenets and Arduino file/02_030626_Syringe PumpArduinoBox_Lid.stl` | Snap-fit or screw-on cover for electronics protection. |
-| Carriage               | `models/Pump componenets and Arduino file/03_030626_Syringe Pump_Carriage.stl`      | Slides along rails for plunger push. |
-| Idler End              | `models/Pump componenets and Arduino file/04_030626_Syringe Pump_Idler End.stl`     | Non-motor end cap with bearings. |
-| Motor End              | `models/Pump componenets and Arduino file/05_030626_Syringe Pump-Motor End.stl`     | Mounts stepper motor; compatible with NEMA 17. |
-| Syringe Holder         | `models/Pump componenets and Arduino file/06_Syringe Pump-Syringe holder.stl`       | Put insulation tape on the curvature where the syringe sits for a better grip. Adjust the negative space to accommodate the syringe diameter. |
-| Arduino Sketch         | `models/Pump componenets and Arduino file/Pump_HomeReturn_030626/`                  | AccelStepper-based Arduino sketch for NEMA 17 stepper pump control. Supports serial commands, button input, and trigger pin control. |
+| Arduino Box            | [`models/Pump componenets and Arduino file/01_030626_Syringe PumpArduino_Box.stl`](models/Pump%20componenets%20and%20Arduino%20file/01_030626_Syringe%20PumpArduino_Box.stl)    | Remove the plastic holder on the bottom of the Arduino (Uno3) and screw in the box using M3 screws. |
+| Arduino Box Lid        | [`models/Pump componenets and Arduino file/02_030626_Syringe PumpArduinoBox_Lid.stl`](models/Pump%20componenets%20and%20Arduino%20file/02_030626_Syringe%20PumpArduinoBox_Lid.stl) | Snap-fit or screw-on cover for electronics protection. |
+| Carriage               | [`models/Pump componenets and Arduino file/03_030626_Syringe Pump_Carriage.stl`](models/Pump%20componenets%20and%20Arduino%20file/03_030626_Syringe%20Pump_Carriage.stl)      | Slides along rails for plunger push. |
+| Idler End              | [`models/Pump componenets and Arduino file/04_030626_Syringe Pump_Idler End.stl`](models/Pump%20componenets%20and%20Arduino%20file/04_030626_Syringe%20Pump_Idler%20End.stl)     | Non-motor end cap with bearings. |
+| Motor End              | [`models/Pump componenets and Arduino file/05_030626_Syringe Pump-Motor End.stl`](models/Pump%20componenets%20and%20Arduino%20file/05_030626_Syringe%20Pump-Motor%20End.stl)     | Mounts stepper motor; compatible with NEMA 17. |
+| Syringe Holder         | [`models/Pump componenets and Arduino file/06_Syringe Pump-Syringe holder.stl`](models/Pump%20componenets%20and%20Arduino%20file/06_Syringe%20Pump-Syringe%20holder.stl)       | Put insulation tape on the curvature where the syringe sits for a better grip. Adjust the negative space to accommodate the syringe diameter. |
+| Arduino Sketch         | [`models/Pump componenets and Arduino file/Pump_Calibration_030626/`](models/Pump%20componenets%20and%20Arduino%20file/Pump_Calibration_030626/)                  | AccelStepper-based bench-calibration sketch for the NEMA 17 syringe pump. Supports serial commands, button input, and trigger pin control. |
 
 ### Ethernet Circuit Box
 
 | Item      | File Path | Description |
 |-----------|-----------|-------------|
-| Body      | `models/Ethernet Circuit Box/01_022526_ECB_Body.stl`      | Main enclosure body for the Ethernet circuit board. |
-| Lid       | `models/Ethernet Circuit Box/02_022526_ECB_Lid.stl`       | Snap-fit lid for the Ethernet circuit box. |
-| Port Clip | `models/Ethernet Circuit Box/05_022526_EJPB_Portclip.stl` | Shared port clip component (also used with Ethernet Jack Plug). |
+| Body      | [`models/Ethernet Circuit Box/01_022526_ECB_Body.stl`](models/Ethernet%20Circuit%20Box/01_022526_ECB_Body.stl)      | Main enclosure body for the Ethernet circuit board. |
+| Lid       | [`models/Ethernet Circuit Box/02_022526_ECB_Lid.stl`](models/Ethernet%20Circuit%20Box/02_022526_ECB_Lid.stl)       | Snap-fit lid for the Ethernet circuit box. |
+| Port Clip | [`models/Ethernet Circuit Box/05_022526_EJPB_Portclip.stl`](models/Ethernet%20Circuit%20Box/05_022526_EJPB_Portclip.stl) | Shared port clip component (also used with Ethernet Jack Plug). |
 
 ### Ethernet Jack Plug Components
 
 | Item      | File Path | Description |
 |-----------|-----------|-------------|
-| Body      | `models/Ethernet Jack Plug Components/01_022526_EJPB_Body.stl`    | Main body for the Ethernet jack plug enclosure. |
-| Lid       | `models/Ethernet Jack Plug Components/02_022526_EJPB_Lid.stl`     | Lid for the Ethernet jack plug enclosure. |
-| Hinge     | `models/Ethernet Jack Plug Components/03_022526_EJPB_Hinge.stl`   | Hinge component for lid attachment. |
-| Lid Clip  | `models/Ethernet Jack Plug Components/04_022526_EJPB_Lidclip.stl` | Clip to secure the lid in place. |
-| Port Clip | `models/Ethernet Jack Plug Components/05_022526_EJPB_Portclip.stl`| Shared port clip component (also used with Ethernet Circuit Box). |
+| Body      | [`models/Ethernet Jack Plug Components/01_022526_EJPB_Body.stl`](models/Ethernet%20Jack%20Plug%20Components/01_022526_EJPB_Body.stl)    | Main body for the Ethernet jack plug enclosure. |
+| Lid       | [`models/Ethernet Jack Plug Components/02_022526_EJPB_Lid.stl`](models/Ethernet%20Jack%20Plug%20Components/02_022526_EJPB_Lid.stl)     | Lid for the Ethernet jack plug enclosure. |
+| Hinge     | [`models/Ethernet Jack Plug Components/03_022526_EJPB_Hinge.stl`](models/Ethernet%20Jack%20Plug%20Components/03_022526_EJPB_Hinge.stl)   | Hinge component for lid attachment. |
+| Lid Clip  | [`models/Ethernet Jack Plug Components/04_022526_EJPB_Lidclip.stl`](models/Ethernet%20Jack%20Plug%20Components/04_022526_EJPB_Lidclip.stl) | Clip to secure the lid in place. |
+| Port Clip | [`models/Ethernet Jack Plug Components/05_022526_EJPB_Portclip.stl`](models/Ethernet%20Jack%20Plug%20Components/05_022526_EJPB_Portclip.stl)| Shared port clip component (also used with Ethernet Circuit Box). |
 
 ### Head Fixation Station
 
@@ -89,7 +103,7 @@ STLs are grouped by category. Each includes print notes in the filename or accom
 
 | Item               | File Path | Description |
 |--------------------|-----------|-------------|
-| Head Rings Specs   | `models/Head Fixation station/head_fixationstation_headrings_specs.pdf` | Engineering drawings for stainless steel head fixation ring components. |
+| Head Rings Specs   | [`models/Head Fixation station/head_fixationstation_headrings_specs.pdf`](models/Head%20Fixation%20station/head_fixationstation_headrings_specs.pdf) | Engineering drawings for stainless steel head fixation ring components. |
 
 ---
 

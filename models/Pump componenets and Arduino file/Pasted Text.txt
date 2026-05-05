@@ -1,2 +1,0 @@
- I've just finished re-running a model training anyway. Can you evaluate the existing models for the best one, and set it as the
-current_model?
