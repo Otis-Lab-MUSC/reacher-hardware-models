@@ -45,7 +45,7 @@ According to Chemyx site, the inner diameter of a 3mL BD plastic syringe is 8.66
  variable vol, fixed infuison duration, variable rate
 */
 
-  #include <AccelStepper.h>
+  #include "AccelStepper.h"
   //Define stepper motor connections
   #define dirPin 6   
   #define stepPin 5  
